@@ -1,0 +1,291 @@
+body{
+    background-color: rgb(245, 201, 8);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h3{
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 25px;
+}
+
+.main .one{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+}
+
+.main .two{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+}
+
+.main .three{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.one pre{
+    float: right;
+}
+
+.four .footer{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: grey;
+    padding: 1px;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.start{
+    float: left;
+}
+
+.end{
+    float: right;
+}
+
+/* media responsive */
+
+@media (max-width:320px) {
+
+    h1{ 
+        font-size: small;
+        margin-top: 15px;
+    }
+
+    .main{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .one{
+        width: 280px;
+    }
+
+    .main .two{
+        width: 280px;
+    }
+
+    .main .three{
+        width: 280px;
+    }
+
+    .four{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 300px;
+        display: flex;
+    }
+
+    .four .footer{
+        height: 100px;
+    }
+
+    .four .start{
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .four .end{
+        margin-top: 2px;
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1440px) {
+    .banner h1{
+        margin-top: 75px;
+    }
+
+    .four{
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .banner h1{
+        margin-top: 75px;
+    }
+
+    .four{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .banner h1{
+        margin-top: 75px;
+    }
+
+    .four{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .footer{
+        display: flex;
+    }
+
+    .four .start{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .four .end{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px) {
+
+    h1{ 
+        margin-top: 50px;
+    }
+
+    .main{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .one{
+        width: 390px;
+    }
+
+    .main .two{
+        width: 390px;
+    }
+
+    .main .three{
+        width: 390px;
+    }
+
+    .four{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 410px;
+    }
+
+    .four .footer{
+        height: 100px;
+        display: flex;
+    }
+
+    .four .start,
+    .four .end{
+        font-size: small;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px) {
+
+    h1{ 
+        font-size: medium;
+        margin-top: 45px;
+    }
+
+    .main{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .one{
+        width: 340px;
+    }
+
+    .main .two{
+        width: 340px;
+    }
+
+    .main .three{
+        width: 340px;
+    }
+
+    .four{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 360px;
+        display: flex;
+    }
+
+    .four .footer{
+        height: 100px;
+    }
+
+    .four .start{
+        font-size: medium;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .four .end{
+        margin-top: 1px;
+        font-size: medium;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width:1441px) and (max-width:2560px) {
+    .banner h1{
+        margin-top: 75px;
+    }
+
+    .four{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    .four .start,
+    .four .end{
+        font-size: large;
+    }
+}
+
+
+
+
